@@ -1,0 +1,208 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    /* font-family: "Roboto",sans-serif; */ 
+    /* font-size: 16px; */
+    /* font-weight: bolder; */
+   font: status-bar 16px "Roboto",sans-serif;
+   letter-spacing: 2px;
+   color: #0F6545;
+   background: #FFF8DC;
+}
+
+.container{
+max-width: 750px;  
+margin: auto;
+padding-top:30px ;
+}
+
+
+
+.photo{
+  width: 250px;
+border-radius: 20px ;
+ 
+box-shadow: 0px 0px 14px 18px rgba(0, 0, 0, .25);
+
+
+}
+
+
+
+.info{
+;
+ display: flex;
+ 
+}
+
+.info-text{
+  padding-bottom:11px ;
+  padding-left: 40px ;
+  margin-top: 30px;
+  
+
+}
+
+
+
+.info-text p {
+  font-style: italic;  
+font-weight: bold;
+
+}
+.info-text h1{
+margin-bottom: -10px;
+
+}
+.info-text-2{
+  color: #77161bfb;
+margin-bottom:10px ;
+}
+
+
+
+
+  .info-text-2 h2{
+    margin:0px;
+    padding-left:22% ; 
+
+  }
+
+ 
+
+
+  .info-text-3{
+color:  rgb(224, 19, 19);
+padding-left:30% ;
+padding-bottom: px;
+}
+.conect{margin:100px; 
+
+}
+ .card{
+border: 1px solid #FFF8DC ;
+  border-radius:20px ;
+ margin-bottom: 10px;
+ padding-left: 20px; 
+}
+.hobby h1{
+
+  padding-left: 20px;
+}
+
+
+ .hobby{
+background-color: antiquewhite;
+}
+ 
+.work{
+ 
+  background-color: Bisque;
+  }
+  ;
+  
+
+.work table {
+  padding-left:10% ;
+
+}
+
+.work h1{
+  padding-left 20px;
+}
+  .phoneme{
+    background-color: rgb(236, 217, 221);
+    color:  rgb(224, 19, 19);  
+    display;  
+
+
+ }
+    .phoneme1{
+      background: #FFF8DC;
+      color: #0F6545;
+      border: 2px solid rgb(236, 217, 221);
+      border-radius:18px ;
+      margin-bottom: 10px;
+
+
+    }
+    
+  .btn2 {
+    color:  rgb(224, 19, 19);
+    border: 1px solid red;
+      border-radius:12px ;
+      padding: 5px 10px;
+      margin-left:20% ;
+    }
+      
+      .btn1{
+        color: #77161bfb;}
+    .btn1:hover{
+     color: #0F6545; 
+    }
+    
+    
+        .btn{
+      text-decoration:none;
+      font-family: inherit;
+    }     
+    .btn:hover{
+      opacity: 0.8;
+      
+      cursor: pointer;
+      
+  }
+   .btn:active{
+    color: #000;
+  } 
+.btn2:hover{
+  background:#000;
+  color: rgb(236, 217, 221);
+
+}
+
+ a:visited{
+  color:#000;
+} 
+.table{
+  width: 100%;
+
+}
+.table tr{
+  text-align: center;
+
+}
+.table tr:hover{
+  background: rgb(112, 117, 108);
+
+}
+ .table td:nth-child(odd),   .table td:nth-child(2){ 
+  background: #c5d9d1;
+}
+
+    
+.imgg{
+
+  width: 180px;
+  margin-bottom: -10px;
+}
+.box {
+  display:inline-block;
+  margin-right: 100px;
+   }
+   @media (max-width:650px){
+    .info{
+      display: block;
+      text-align: center;
+    
+    }
+  .box{
+    display: block;
+    text-align: center;
+  }
+   }
+  
+  
